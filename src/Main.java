@@ -16,9 +16,11 @@ public class Main {
         Vehiculo v2 = new Vehiculo(nombre1, color1, marca1);
 
 
+
         v1.mostrar();
         v2.mostrar();
 
     }
 }
 //Nuevo
+//yo queria estudiar ingenieria civil
