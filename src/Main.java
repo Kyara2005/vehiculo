@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Marca: ");
         String marca1 = sc.nextLine();
         Vehiculo v2 = new Vehiculo(nombre1, color1, marca1);
-        System.out.println("uno");
+
 
         v1.mostrar();
         v2.mostrar();
