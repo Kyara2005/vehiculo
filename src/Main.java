@@ -3,11 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Vehiculo v1 = new Vehiculo("hola", true);
+        Vehiculo v1 = new Vehiculo("hola", "rojo");
         v1.mostrar();
 
 
-        Vehiculo carro = new Vehiculo("bmw","5.0");
+        //Creo la instancia
+        Vehiculo carro= new Vehiculo("Cross","Gris","Toyota");
 
+
+        //Lamo al mét odo
+        carro.mostrar();
     }
 }
