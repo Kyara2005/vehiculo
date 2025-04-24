@@ -5,5 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Vehiculo v1 = new Vehiculo("hola", true);
         v1.mostrar();
+
     }
 }
